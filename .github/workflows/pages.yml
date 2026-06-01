@@ -1,0 +1,11 @@
+name: DKSJQI CI-CD Pipeline
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Test message
+        run: echo "CI/CD workflow successfully executed"
